@@ -37,7 +37,6 @@ public class Command_sys extends TFM_Command
             //lol smites them if they cant do /sys i'm really evil :)
             return true;
         }
-        else {
         if (args.length == 0)
         {
             return false;
@@ -139,4 +138,4 @@ public class Command_sys extends TFM_Command
         return true;
     }
 }
-}
+
